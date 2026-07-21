@@ -36,11 +36,34 @@ Asegúrate de contar con los siguientes elementos instalados en tu sistema:
 ## 📦 Instalación y Configuración
 
 1. **Clona el repositorio o navega a la carpeta del proyecto:**
-   ```bash
-   cd mock-server
 
-## Ejecución del Servidor
-## Suite de Pruebas y Cobertura
+   ```cd mock-server```
+# 📦 Instalación de Dependencias
+
+Instala las dependencias del proyecto:
+
+```npm install```
+
+2. **Instala Newman y el reportero HTML de forma global:**
+
+```npm install -g newman newman-reporter-htmlextra```
+
+## 🚀 Ejecución del Servidor
+
+```npm start```
+
+Una vez levantado, la consola indicará que los servicios están activos. El servidor expone los siguientes puntos de entrada:
+
+Base URL: http://localhost:4000
+
+Endpoint REST (Users): http://localhost:4000/api/v1/users
+
+Endpoint GraphQL: http://localhost:4000/graphql
+
+
+
+
+## 🧪 Suite de Pruebas y Cobertura
 ## Ejecución de Pruebas con Newman
 ## Pruebas Basadas en Datos (DDT)
 ## Generación de Reportes HTML
