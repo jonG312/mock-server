@@ -149,5 +149,24 @@ Características del reporte
 
 Esto facilita la depuración de errores como respuestas 500 o fallos en las validaciones automatizadas.
 
+## 📁 Estructura del Proyecto
 
+.
+├── postman/
+│   └── api_health_checks.json
+├── data.json
+├── newman/
+│   └── *.html
+├── package.json
+└── README.md
 
+## 🛠️ Tecnologías Utilizadas
+
+- Node.js
+- Postman
+- Newman
+- Newman HTML Extra Reporter
+- REST API
+- GraphQL
+- Data-Driven Testing (DDT)
+- Automated Integration Testing
