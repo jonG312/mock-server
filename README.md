@@ -39,13 +39,13 @@ Asegúrate de contar con los siguientes elementos instalados en tu sistema:
 
    ```cd mock-server```
 
-Instalación de Dependencias
+2. Instalación de Dependencias
 
 Instala las dependencias del proyecto:
 
 ```npm install```
 
-2. **Instala Newman y el reportero HTML de forma global:**
+3. **Instala Newman y el reportero HTML de forma global:**
 
 ```npm install -g newman newman-reporter-htmlextra```
 
