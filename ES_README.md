@@ -136,7 +136,7 @@ Para generar un reporte HTML visual e interactivo:
 ```newman run postman/api_health_checks.json -d data.json -r htmlextra```
 
 
-![Descripción de la imagen](report.png)
+![Report dashboard](report.png)
 
 
 
