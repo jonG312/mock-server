@@ -1,0 +1,12 @@
+[
+  { "name": "Carlos Mendoza", "email": "carlos@example.com", "role": "admin" },
+  { "name": "Ana Gómez", "email": "ana@example.com", "role": "user" },
+  { "name": "Luis Torres", "email": "luis@example.com", "role": "editor" },
+  { "name": "María Silva", "email": "maria@example.com", "role": "user" },
+  { "name": "Jorge Ramos", "email": "jorge@example.com", "role": "admin" },
+  { "name": "Sofia Castro", "email": "sofia@example.com", "role": "user" },
+  { "name": "Diego Morales", "email": "diego@example.com", "role": "user" },
+  { "name": "Elena Vargas", "email": "elena@example.com", "role": "editor" },
+  { "name": "Fernando Ruiz", "email": "fernando@example.com", "role": "user" },
+  { "name": "Patricia Vega", "email": "patricia@example.com", "role": "admin" }
+]
