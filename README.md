@@ -67,8 +67,6 @@ Endpoint REST (Users): http://localhost:4000/api/v1/users
 Endpoint GraphQL: http://localhost:4000/graphql
 
 
-
-
 ## 🧪 Suite de Pruebas y Cobertura
 
 La colección de Postman se encuentra en:
@@ -136,6 +134,16 @@ durante la ejecución Newman:
 Para generar un reporte HTML visual e interactivo:
 
 ```newman run postman/api_health_checks.json -d data.json -r htmlextra```
+
+
+
+
+
+
+
+
+
+
 
 El reporte generado estará disponible en la carpeta:
 
