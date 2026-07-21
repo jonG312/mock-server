@@ -65,7 +65,46 @@ Endpoint GraphQL: http://localhost:4000/graphql
 
 
 ## 🧪 Suite de Pruebas y Cobertura
-## Ejecución de Pruebas con Newman
-## Pruebas Basadas en Datos (DDT)
-## Generación de Reportes HTML
+
+La colección de Postman se encuentra en:
+
+```postman/api_health_checks.json```
+
+1. **Endpoint REST**
+
+Método:
+
+```GET /api/v1/users```
+
+Las pruebas verifican:
+
+Status Code Check: El código de respuesta HTTP debe ser 200 OK.
+Latency Check: El tiempo de respuesta debe ser inferior a 500 ms.
+
+2. Endpoint GraphQL
+
+Método:
+
+```POST /graphql```
+
+Las pruebas verifican:
+
+Schema & Query Validation: Ejecuta una consulta checkService solicitando los campos:
+- service
+- healthy
+- latencyMs
+- Error Prevention: Verifica que la respuesta JSON no contenga la propiedad "errors".
+
+
+## ⚙️ Ejecución de Pruebas con Newman
+
+
+
+
+## 📊 Pruebas Basadas en Datos (DDT - Data-Driven Testing)
+
+
+
+
+## 📄 Generación de Reportes HTML
 
