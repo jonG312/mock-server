@@ -38,3 +38,10 @@ Asegúrate de contar con los siguientes elementos instalados en tu sistema:
 1. **Clona el repositorio o navega a la carpeta del proyecto:**
    ```bash
    cd mock-server
+
+## Ejecución del Servidor
+## Suite de Pruebas y Cobertura
+## Ejecución de Pruebas con Newman
+## Pruebas Basadas en Datos (DDT)
+## Generación de Reportes HTML
+
