@@ -1,3 +1,8 @@
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)
+![Postman](https://img.shields.io/badge/Postman-Testing-orange)
+![Newman](https://img.shields.io/badge/Newman-Automated%20Testing-blue)
+![GraphQL](https://img.shields.io/badge/GraphQL-API-E10098)
+
 # 🚀 Mock Server API & Automated Testing Suite
 
 Servidor Mock desarrollado con Node.js y Express para emular endpoints REST y GraphQL, acompañado de una suite de pruebas automatizadas en Postman ejecutadas mediante **Newman** con soporte para **Data-Driven Testing (DDT)** y **reportes gráficos en HTML**.
