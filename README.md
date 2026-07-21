@@ -38,7 +38,7 @@ Asegúrate de contar con los siguientes elementos instalados en tu sistema:
 1. **Clona el repositorio o navega a la carpeta del proyecto:**
 
    ```cd mock-server```
-# 📦 Instalación de Dependencias
+### 📦 Instalación de Dependencias
 
 Instala las dependencias del proyecto:
 
