@@ -98,10 +98,33 @@ Schema & Query Validation: Ejecuta una consulta checkService solicitando los cam
 
 ## ⚙️ Ejecución de Pruebas con Newman
 
+Newman te permite correr la suite directamente en la consola sin necesidad de abrir la interfaz gráfica de Postman.
 
+Para lanzar una ejecución simple de la colección:
 
+```newman run postman/api_health_checks.json```
 
 ## 📊 Pruebas Basadas en Datos (DDT - Data-Driven Testing)
+
+El proyecto soporta pruebas basadas en datos externos mediante el archivo:
+
+```data.json```
+
+Esto permite ejecutar múltiples iteraciones utilizando diferentes registros de datos.
+
+Para ejecutar la colección utilizando el dataset:
+
+```newman run postman/api_health_checks.json -d data.json```
+
+durante la ejecución Newman:
+
+   - Detecta la cantidad de registros disponibles en data.json.
+   - Ejecuta una iteración de la suite por cada registro.
+   - Sustituye dinámicamente las variables:
+      ```{{name}}```
+      ```{{email}}```
+      ```{{role}}```
+   - Muestra un resumen de las aserciones exitosas y fallidas de cada iteración.
 
 
 
