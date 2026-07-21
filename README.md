@@ -126,8 +126,28 @@ durante la ejecución Newman:
       ```{{role}}```
    - Muestra un resumen de las aserciones exitosas y fallidas de cada iteración.
 
-
-
-
 ## 📄 Generación de Reportes HTML
+
+Para generar un reporte HTML visual e interactivo:
+
+```newman run postman/api_health_checks.json -d data.json -r htmlextra```
+
+El reporte generado estará disponible en la carpeta:
+
+```/newman```
+
+Características del reporte
+   - Dashboard visual: Muestra el porcentaje total de pruebas exitosas y fallidas.
+   - Tiempo de respuesta: Permite analizar el tiempo medio de respuesta.
+   - Detalle por iteración: Muestra información individual de cada ejecución.
+   - Logs HTTP completos: Permite inspeccionar:
+   - Headers de la petición.
+   - Request Body.
+   - Response Body.
+   - Errores HTTP.
+   - Fallos de aserciones.
+
+Esto facilita la depuración de errores como respuestas 500 o fallos en las validaciones automatizadas.
+
+
 
