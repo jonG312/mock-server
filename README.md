@@ -155,7 +155,7 @@ Características del reporte
 Esto facilita la depuración de errores como respuestas 500 o fallos en las validaciones automatizadas.
 
 ## 📁 Estructura del Proyecto
-
+```
 .
 ├── postman/
 │   └── api_health_checks.json
@@ -164,7 +164,7 @@ Esto facilita la depuración de errores como respuestas 500 o fallos en las vali
 │   └── *.html
 ├── package.json
 └── README.md
-
+```
 ## 🛠️ Tecnologías Utilizadas
 
 - Node.js
